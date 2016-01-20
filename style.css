@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('./fonts/HelveticaNeue.eot');
+    src: local('HelveticaNeue'),
+        url('./fonts/HelveticaNeue.woff') format('woff'),
+        url('./fonts/HelveticaNeue.ttf') format('truetype');
+}
+
+.brand-text {
+	color: #fff;
+	font-family: "HelveticaNeue";
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #000;
+    /*background-color: #E4E4E4;*/
+    font-size: 1.15em;
+    padding: 0px;
+    margin: 0px;
+    background: #43cea2;
+    background: -webkit-linear-gradient(to bottom, #43cea2 , #185a9d);
+    background: linear-gradient(to bottom, #43cea2 , #185a9d);
+}
+
+
+#logo {
+    width: 80%;
+    margin: 0px auto;
+    z-index: 1;
+}
+
+#logo img {
+	display: inline-block;
+	width: 50px;
+	margin: 25px 0px;
+}
+
+#logo h1 {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	line-height: 100px;
+	font-size: 40px;
+	margin-left: 20px;
+	font-weight: normal;
+}
+
+#site {
+    width: 80%;
+    background-color: white;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-top: 10px;
+    border-color: #b9bebc;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px auto 0px auto;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+}
+
+#sidebar{
+
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(/images/sidebar.jpg);
+    height: 900px;
+    width: 84px;
+    z-index: 2;
+}
+
+
+#footer {
+    text-align: right;
+    padding-top: 10px;
+    width: 80%;
+    margin: 0px auto 65px auto;
+}
+
+#footer img {
+	width: 25px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#footer span {
+	font-size: 25px;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 25px;
+	margin-left: 10px;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 7px;
+    margin-top: 35px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.boxed {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 1.3em;
+    border-color: #cdcac8;
+    border-width: 1px;
+    border-style: solid;
+    color: black;
+    background-color: #fefce9;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+.bigger {
+    font-size: 1.4em;
+}
+
+li {
+    margin-bottom:.5em;
+}
