@@ -59,6 +59,7 @@ body {
     margin: 0px auto 0px auto;
     -moz-border-radius:8px;
     -webkit-border-radius:8px;
+    box-sizing: border-box;
 }
 
 #sidebar{
@@ -104,6 +105,10 @@ h2 {
     margin-bottom: 7px;
     margin-top: 35px;
     font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    word-break: break-word;
 }
 
 .boxed {
