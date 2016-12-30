@@ -19,6 +19,11 @@ body {
 	background: linear-gradient(to bottom, #43cea2 , #185a9d);
 }
 
+.brand-text {
+	color: #fff;
+        font-family: "HelveticaNeue";
+}
+
 #logo {
 	width: 80%;
 	margin: 0px auto;
@@ -39,8 +44,6 @@ body {
 	font-size: 40px;
 	margin-left: 20px;
 	font-weight: normal;
-	color: #fff;
-        font-family: "HelveticaNeue";
 }
 
 #site {
