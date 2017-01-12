@@ -123,18 +123,18 @@ li {
 
 /* For smaller devices */
 @media (max-width: 768px) {
-
+	
 	#logo {
 		padding: 0px 30px;
 	}
 
 	#logo img {
-		width: 40px;
-		margin: 30px 0px;
+		width: 34px;
+		margin: 31px 0px;
 	}
 
 	#logo h1 {
-		font-size: 30px;
+		font-size: 26px;
 	}
 	
 	#site {
@@ -159,4 +159,12 @@ li {
 		font-size: 1em;
 	}
 
+	#footer img {
+		width: 22px;
+	}
+
+	#footer span {
+		font-size: 20px;
+	}
+	
 }
