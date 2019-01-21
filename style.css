@@ -21,7 +21,7 @@ body {
 
 .brand-text {
 	color: #fff;
-        font-family: "HelveticaNeue";
+	font-family: "HelveticaNeue";
 }
 
 #logo {
@@ -36,7 +36,7 @@ body {
 	margin: 25px 0px;
 }
 
-#logo h1 {
+#logo span {
 	display: inline-block;
 	vertical-align: top;
 	margin: 0;
@@ -123,18 +123,18 @@ li {
 
 /* For smaller devices */
 @media (max-width: 768px) {
-	
+
 	#logo {
 		padding: 0px 30px;
 	}
 
 	#logo img {
-		width: 34px;
-		margin: 31px 0px;
+		width: 40px;
+		margin: 30px 0px;
 	}
 
 	#logo h1 {
-		font-size: 26px;
+		font-size: 30px;
 	}
 	
 	#site {
@@ -159,12 +159,4 @@ li {
 		font-size: 1em;
 	}
 
-	#footer img {
-		width: 22px;
-	}
-
-	#footer span {
-		font-size: 20px;
-	}
-	
 }
