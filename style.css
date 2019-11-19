@@ -163,6 +163,10 @@ li {
 }
 
 /* Carbon */
+p.center {
+	text-align: center;
+}
+
 #carbonads {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
   Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
